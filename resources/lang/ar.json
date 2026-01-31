@@ -1,0 +1,23 @@
+{
+    "No account found with this email address.": "لم يتم العثور على حساب بهذا البريد الإلكتروني.",
+    "OTP must be exactly 6 digits.": "يجب أن تكون كلمة المرور لمرة واحدة مكونة من 6 أرقام بالضبط.",
+    "Email is required": "البريد الإلكتروني مطلوب",
+    "Name is required.": "الاسم مطلوب.",
+    "Email is required.": "البريد الإلكتروني مطلوب.",
+    "This email is already registered.": "هذا البريد مسجل مسبقاً.",
+    "Password is required.": "كلمة المرور مطلوبة.",
+    "Password confirmation does not match.": "تأكيد كلمة المرور غير متطابق.",
+    "Registration successful. Please check your email for OTP verification.": "تم التسجيل بنجاح. يرجى التحقق من بريدك الإلكتروني للتحقق من كلمة المرور لمرة واحدة.",
+    "Please verify your email to complete registration": "يرجى التحقق من بريدك الإلكتروني لإكمال التسجيل",
+    "Login successful": "تم تسجيل الدخول بنجاح",
+    "Token refreshed successfully": "تم تحديث الرمز بنجاح",
+    "OTP has been resent to your email.": "تم إعادة إرسال رمز التاكيد إلى بريدك الإلكتروني.",
+    "OTP verified successfully": "تم التحقق من رمز التاكيد بنجاح",
+    "Invalid OTP. Please try again.": "رمز التاكيد غير صالح. حاول مرة أخرى.",
+    "OTP expired. Please request a new one.": "انتهت صلاحية رمز التاكيد. يرجى طلب رمز جديد.",
+    "Invalid credentials": "بيانات الدخول غير صحيحة",
+    "OTP has expired. Please request a new one.": "انتهت صلاحية رمز التاكيد. يرجى طلب رمز جديد.",
+    "Maximum OTP attempts reached. Please request a new OTP.": "تم الوصول إلى الحد الأقصى لمحاولات رمز التاكيد. يرجى طلب رمز جديد.",
+    "Email already verified.": "تم التحقق من البريد الإلكتروني بالفعل."
+
+}
