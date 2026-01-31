@@ -1,7 +1,7 @@
 {
     "info": {
         "name": "Order Management APIs",
-        "description": "Comprehensive documentation including success and failure states for Orders and Multi-payment gateways.",
+        "description": "Comprehensive documentation including success and failure states for Orders and Multi-payment gateways.\n\n**Security**: All requests require `X-SECRET-KEY` header set to the configured API Secret Key.",
         "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
     },
     "item": [
@@ -47,7 +47,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/auth/register",
                             "path": [
@@ -168,7 +175,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/auth/resend-otp",
                             "path": [
@@ -258,7 +272,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/auth/verify-otp",
                             "path": [
@@ -349,7 +370,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/auth/login",
                             "path": [
@@ -501,7 +529,14 @@
                         "auth": [],
                         "method": "POST",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/auth/refresh",
                             "path": [
@@ -584,7 +619,14 @@
                         },
                         "method": "GET",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/profile",
                             "path": [
@@ -685,7 +727,14 @@
                                 }
                             ]
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/profile",
                             "path": [
@@ -777,7 +826,14 @@
                         "auth": [],
                         "method": "POST",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/auth/logout",
                             "path": [
@@ -872,7 +928,14 @@
                         "auth": [],
                         "method": "GET",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/products",
                             "path": [
@@ -961,7 +1024,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/products",
                             "path": [
@@ -1132,7 +1202,14 @@
                         "auth": [],
                         "method": "GET",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/products/1",
                             "path": [
@@ -1275,7 +1352,14 @@
                                 }
                             ]
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/products/1",
                             "path": [
@@ -1364,7 +1448,14 @@
                         "auth": [],
                         "method": "DELETE",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/products/{{product_id}}",
                             "path": [
@@ -1468,7 +1559,14 @@
                         },
                         "method": "GET",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/orders",
                             "path": [
@@ -1601,7 +1699,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/orders",
                             "path": [
@@ -1824,7 +1929,14 @@
                         },
                         "method": "GET",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/orders/1",
                             "path": [
@@ -1983,7 +2095,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/orders/{{order_id}}",
                             "path": [
@@ -2070,7 +2189,14 @@
                         },
                         "method": "POST",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/orders/2/cancel",
                             "path": [
@@ -2160,7 +2286,14 @@
                         },
                         "method": "DELETE",
                         "body": [],
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/orders/1",
                             "path": [
@@ -2281,7 +2414,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/payments/initiate",
                             "path": [
@@ -2517,7 +2657,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/payments/callback/myfatoorah",
                             "path": [
@@ -2628,7 +2775,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/payments/callback/myfatoorah",
                             "path": [
@@ -2730,7 +2884,14 @@
                                 }
                             }
                         },
-                        "header": [],
+                        "header": [
+                            {
+                                "key": "X-SECRET-KEY",
+                                "value": "{{secret_key}}",
+                                "type": "text",
+                                "description": "API Secret Key required for all requests"
+                            }
+                        ],
                         "url": {
                             "raw": "{{baseUrl}}/payments/webhook/myfatoorah",
                             "path": [
@@ -2817,25 +2978,5 @@
             "type": "string"
         }
     ],
-    "event": [],
-    "auth": {
-        "type": "apikey",
-        "apikey": [
-            {
-                "key": "value",
-                "value": "{{secret_key}}",
-                "type": "string"
-            },
-            {
-                "key": "key",
-                "value": "X-SECRET-KEY",
-                "type": "string"
-            },
-            {
-                "key": "in",
-                "value": "header",
-                "type": "string"
-            }
-        ]
-    }
+    "event": []
 }
